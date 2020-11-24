@@ -1,0 +1,389 @@
+{% extends "base.html" %}
+
+{% block index %}
+
+<div class="icon-bar">
+    <ul>
+        <li><a class="home" href="#"><i class="fa fa-home icon fa-fw"><p>Home</p></i></a></li>
+        <li><a class="about" href="#AboutMe"><i class="fa fa-user icon fa-fw"><p>About</p></i></a></li>
+        <li><a class="projects" href="#Projects"><i class="fa fa-flask icon fa-fw"><p>Projects</p></i></a></li>
+    </ul>
+</div>
+
+<div class="landing_screen">
+    <div class="landing_card" >
+        <div class="landing_card-name">
+            <h1>Elias Melul</h1>
+            <h4>Data Scientist | Consultant | Techie</h4>
+            <hr>
+            <div class="landing_card-social">
+                <a href="https://www.linkedin.com/in/melulelias/" class="fa fa-linkedin fa-2x"></a>
+                <a href="https://github.com/eliasmelul" class="fa fa-github fa-2x"></a>
+                <a href="mailto:elias.melul.fresco@duke.edu" class="fa fa-google fa-2x"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="AboutMe">
+    <div class="container"> 
+        <div class="align-items-center" id="slider">
+            <div id="carouselExampleIndicators" class="carousel slide" data-interval="10s">
+
+                <ol class="carousel-indicators list-inline mx-auto border px-2">
+                    <!-- Elias  -->
+                    <li class="list-inline-item active" data-target="#carouselExampleIndicators" data-slide-to="0">
+                        <a id="carousel-selector-0">
+                            <img src="../static/Me/EliasPhotoE.jpg" class="img-fluid rounded-circle">
+                        </a>
+                    </li>
+
+                    <div class='carousel-item-sep'></div>
+                    
+                    <!-- Education  -->
+                    <!-- Fuqua  -->
+                    <li class="list-inline-item">
+                        <a id="carousel-selector-2" data-slide-to="1" data-target="#carouselExampleIndicators">
+                            <img src="../static/Logos/NoBackground/Fuqua.png" class="img-fluid">
+                        </a>
+                    </li> 
+                    <!-- RIT  -->
+                    <li class="list-inline-item">
+                        <a id="carousel-selector-3" data-slide-to="2" data-target="#carouselExampleIndicators">
+                            <img src="../static/Logos/NoBackground/rit.png" class="img-fluid">
+                        </a>
+                    </li>
+
+                    <div class='carousel-item-sep'></div>
+
+                    <!-- Work  -->
+                    <!-- Moodys  -->
+                    <li class="list-inline-item" data-slide-to="3" data-target="#carouselExampleIndicators">
+                        <a id="carousel-selector-1">
+                            <img src="../static/Logos/NoBackground/moodys.png" class="img-fluid">
+                        </a>
+                    </li>
+                    <!-- RepsAi  -->
+                    <li class="list-inline-item" data-slide-to="4" data-target="#carouselExampleIndicators">
+                        <a id="carousel-selector-1">
+                            <img src="../static/Logos/NoBackground/repsai.png" class="img-fluid">
+                        </a>
+                    </li>
+                    <!-- HispanoTex  -->
+                    <li class="list-inline-item" data-slide-to="5" data-target="#carouselExampleIndicators">
+                        <a id="carousel-selector-1">
+                            <img src="../static/Logos/NoBackground/hispanotex.png" class="img-fluid">
+                        </a>
+                    </li>
+                    <!-- NYC OMB  -->
+                    <li class="list-inline-item" data-slide-to="6" data-target="#carouselExampleIndicators">
+                        <a id="carousel-selector-1">
+                            <img src="../static/Logos/NoBackground/omb.png" class="img-fluid">
+                        </a>
+                    </li>
+                    <!-- Coopervision  -->
+                    <li class="list-inline-item" data-slide-to="7" data-target="#carouselExampleIndicators">
+                        <a id="carousel-selector-1">
+                            <img src="../static/Logos/NoBackground/coopervision.png" class="img-fluid">
+                        </a>
+                    </li>
+
+                    <div class='carousel-item-sep'></div>
+                    <!-- MOOC  -->
+                    <li class="list-inline-item" data-slide-to="8" data-target="#carouselExampleIndicators">
+                        <a id="carousel-selector-1">
+                            <img src="../static/Logos/NoBackground/mooc.png" class="img-fluid">
+                        </a>
+                    </li>
+                    
+
+                </ol>
+
+                <div class="carousel-inner" style="margin-top: 2em;"> 
+                    <!-- Me  -->
+                    <div class="carousel-item active">
+                        <img src="../static/Me/EliasPhotoE.jpg" class="rounded-circle float-right img fluid " alt="" style="height: 15rem;">
+                        
+                        <h1 id="position_title">About Me</h1>
+                        <h2 style="font-size: 80%;" id="subsub">Techie | Kitesurfer &amp; World Traveler | FCB Fan</h2>
+                        <hr align="left" style="height:5px; width:5vw; color:#23609D; background-color:#23609D; text-align: left;">
+                        <p>Impact drives me as a consultant, curiosity as a data scientist, and knowledge as a researcher. I am results-driven, with a knack and desire to solve large-scale, real-world problems by leveraging classical and novel machine learning, artificial intelligence, and big data technologies. At the heart of my work is a passion to impact as many customers as possible, and to drive growth and efficiency in companies through digital transformation initiatives and data-driven strategy.</p>
+                        
+                        <p><strong>Contact Information:</strong></p>
+                        <p><i class="fa fa-linkedin" style="padding: 0.5em;"></i> LinkedIn: <a href="https://www.linkedin.com/in/melulelias/">https://www.linkedin.com/in/melulelias/</a></p>
+                        <p><i class="fa fa-github" style="padding: 0.5em;"></i> GitHub: <a href="https://github.com/eliasmelul/">https://github.com/eliasmelul/</a></p>
+                        <p><i class="fa fa-envelope" style="size: 1em; padding: 0.45em; background-color: white; color: black;"></i> Email: <a href="mailto:elias.melul.fresco@duke.edu">elias.melul.fresco@duke.edu</a></p>
+                        <p><i class="fa fa-phone" style="font-size: 1.2em; padding: 0.45em;"></i>Phone: <a>+1 585-360-5079</a></p>
+                        
+                    </div>
+
+                    <!-- Fuqua  -->
+                    <div class="carousel-item">
+                        <h2>M.S. Business Analystics</h2>
+                        <h5>Duke University - The Fuqua School of Business</h5> 
+                        <hr align="left">
+                        <p><strong>Capstone Consulting Project:</strong> Demand Forecasting – Collins Aerospace: Developed and evaluated time series forecasting models [ARIMA, Exponential Smoothing, LSTMs, +] to predict demand of repair parts for different work centers or parts.</p>
+                        <small> <strong>Relevant Coursework:</strong> Data Science for Business, Data Visualization, Operations Analytics, Econometrics, Customer Relationship Management, Decision Analytics and Modeling, Data Infrastructure, Strategic Management, Critical Thinking</small>
+                    </div>
+
+                    <!-- RIT -->
+                    <div class="carousel-item">
+                        <h2>B.S. Industrial Engineering & B.S. Economics</h2>
+                        <h5>Rochester Institute of Technology</h5> 
+                        <hr align="left">
+                        <p><strong>Behavioral Economics Research Assistant:</strong> Worked with Dr. Nikolaus Robalino to establish the new behavioral economics laboratory at RIT, generate a sample population of subjects across campus, help carry out experiments, and analyze data from tests.</p>
+                        <p><strong>Multidisciplinary Senior Design:</strong> Adjustable Aircraft Brake Simulator: Led multidisciplinary senior design team of 8 to design, develop, prototype, and test an adjustable aircraft brake simulator for Meggitt Aircraft Systems under the $10K budget.</p>
+                        <small> <strong>Relevant Coursework:</strong> Forecasting Methods, Operations Research, Lean Six Sigma, Computational Methods, Linear Regression Analysis, International Trade and Finance, Microeconomics, Macroeconomics, Accounting, Differential Equations, Multivariable and Vector Calculus, Probability & Statistics, Engineering Management</small>
+                    </div>
+
+                    <!-- Moodys  -->
+                    <div class="carousel-item">
+                        <h2>Data Analyst</h2>
+                        <h5>Moody's Analytics</h5> 
+                        <hr align="left">
+                        <p>Enriched data (product) by developing and deploying Python and SQL scripts to automatically fetch, transform, and master private company data from vendors in order to create golden records.</p>
+                        <ul>
+                            <li>Developed and deployed transformation scripts in Python to standardize and clean extracted data and leveraged Pandas’ vectorization capabilities to optimize the speed and efficiency of the scripts.</li>
+                            <li>Created SQL Stored Procedures and queries to place business scope filters on data inputs, create and manage tables in Redshift, and automatically populate tables based on inference conditions.</li>
+                            <li>Presented development plans to business leaders in EU and US to share insights from data analysis, highlight uplift from extraction, and align strategic priorities based on clients’ demands. </li>
+                            <li>Automated cluster validation subprocess by deploying ML models using PyCaret.</li>
+                            <li>Coded RegEx-intensive classes and methods utilized in all Python scripts in production to clean, standardize, and reassign outliers in data, allowing for improved entity resolution results.</li>
+                        </ul>
+                    </div>
+
+                    <!-- RepsAI -->
+                    <div class="carousel-item">
+                        <h2>Data Scientist</h2>
+                        <h5>RepsAI</h5> 
+                        <hr align="left">
+                        <p>Responsible for assisting the CEO and CTO to solve business and technical problems and improve processes, including data science, business development, GDPR, marketing research, and strategic projects.</p>
+                        <ul>
+                            <li>Performed A/B testing and provided recommendations on modifications of Reps AI user interface. This led to improved end-user engagement with Reps AI ~55%.</li>
+                            <li>Developed, evaluated, and deployed topic model [Latent Dirichlet Allocation] in data preprocessing stage that reduced overtime labor costs ~85% during Reps AI implementation process with client.</li>
+                            <li>Presented competitor research to CEO, highlighting competitive advantages and gaps</li>
+                        </ul>
+                    </div>
+
+                    <!-- HispanoTex -->
+                    <div class="carousel-item">
+                        <h2>Decision Analyst Intern</h2>
+                        <h5>Hispano Tex</h5> 
+                        <hr align="left">
+                        <p>Catalyzed digital transformation by managing and performing POC projects leveraging time series, ML, and data visualization that monitor and improve production performance and generate insights to improve our operational strategy.</p>
+                        <ul>
+                            <li>Analyzed data, engineered clustering algorithm, and delivered insights about product lifecycle to executives that minimized manufacturing iterations of products, cutting setup costs ~$100k (80%).</li>
+                            <li>Created and evaluated time series forecasting models to predict demand of Ikea’s products manufactured by Hispano Tex, improving executive decision-making process on operations.</li>
+                            <li>Recaptured 3035 square feet for alternative use by designing and optimizing space utilization of a new centralized repair parts warehouse. Designed interim inventory management system [Excel].</li>
+                            <li>Reduced risks and failure modes by implementing FMEA across two manufacturing plants and by carrying out projects that targeted the most serious risks, decreasing Risk Priority Number by 1346.</li>
+                        </ul>
+                    </div>
+
+                    <!-- NYC OMB -->
+                    <div class="carousel-item">
+                        <h2>Financial Analyst Intern</h2>
+                        <h5>NYC Office of Management and Budget</h5> 
+                        <hr align="left">
+                        <p>Managed several technology projects in the Pensions Unit to automate, improve, and innovate current workflows and systems.</p>
+                        <ul>
+                            <li>Automated performance tracking system using Excel Macros, reducing time on task ~95%.</li>
+                            <li>Built Access database and Excel dashboard of key pension metrics.</li>
+                            <li>Used Monte Carlo Value at Risk for assessing market risk of pension funds valued at ~$200 billion.</li>
+                            <li>Assisted analysts in the department with comparative financial analyses, including evaluating the impact of policy changes on different pensions funds.</li>
+                        </ul>
+                    </div>
+
+                    <!-- CooperVision -->
+                    <div class="carousel-item">
+                        <h2>Continuous Improvement Engineer Co-op</h2>
+                        <h5>CooperVision</h5> 
+                        <hr align="left">
+                        <p>Identified, analyzed, and coordinated projects that optimized processes, reduced time expenses, and tracked operational deficiencies.</p>
+                        <ul>
+                            <li>Analyzed station capacity and workflows to detect the most probable bottlenecks in packaging processes.</li>
+                            <li>Applied Lean Six Sigma methodologies to evaluate current systems, define appropiate process KPIs, and develop improvement plans.</li>
+                            <li>Reduced workforce time for labeling process ~85% by analyzing manual and semi-manual labeling system, proposing improvement plans to management, determining key engineering requirements, reaching out to industrial machine manufacturers, and outsourcing machine production. ROI: 30%.</li>
+                        </ul>
+                    </div>
+
+                    <!-- MOOC -->
+                    <div class="carousel-item">
+                        <h2>MOOC & Certifications</h2>
+                        <h5>Coursera, Udemy, AWS, Tableau, IBM</h5> 
+                        <hr align="left">
+                        <ul>
+                            <li>IBM Data Science Professional</li>
+                            <li>AWS Solutions Architect Associate</li>
+                            <li>Tableau Desktop Certified Associate</li>
+                            <li>Full Stack Web Developer with Python & Django</li>
+                            <li>Financial Markets by Yale University</li>
+                            <li>Natural Language Processing</li>
+                            <li>Spark and Python for Big Data (PySpark)</li>
+                            <li>Flask Bootcamp</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                    
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                </div>
+            </div> 
+        </div>
+</div>
+
+<div id="Projects">
+
+    <!-- City Recommendation System  -->
+    <div class="container" id="CityRecommender">
+        <div class="jumbotron">
+                       
+            <div class="row project-row">
+                <h1>City Recommendation System</h1>
+                <hr align="left" class="titlehr">
+                <p class="lead">Have you every wondered if you should move to a place for a specific job? Whether you’d be happy in that place if you were to move?</p>
+                <div class="row forshow">
+                    <div class="col-6 col-4">
+                        <strong>Enter the city (or cities) you like, and we'll recommend you others based on your choices:</strong>
+                        <form method="POST" action="#CityRecommender">
+                            {{ rec_form.hidden_tag() }}
+                            <div class="form-group">
+                                {{ rec_form.cities(class_='form-control select2') }}
+                                <br>
+                                {{ rec_form.submit(class='btn btn-primary') }}
+                            </div>
+        
+                        </form>
+                    </div>
+                    <div class="col">
+                        
+                        <span>
+                            {% if cities %}
+                            The cities you entered are:
+                            <ul>
+                                {% for i in cities %}
+                                <li>{{ i }}</li>
+                                {% endfor %}
+                            </ul>
+                            Your recommended cities:
+                            <ol>
+                                {% for r in recommendations %}
+                                <li>{{ r }}</li>
+                                {% endfor %}
+                            </ol>
+                            {% endif %}
+                        </span>
+                    </div>
+                </div>
+
+
+                <p>As I looked, applied, and interviewed for jobs, I was constantly wondering this myself. The US has over nineteen-thousand cities and towns. About 300 of them are considered at least medium size with populations above 100,000. It’s easy to be overwhelmed when deciding to move, but it is especially true when you’re not sure what to expect from the place you might be moving to.</p>
+                <p>Most people know in some way or another cities like New York, Boston, San Francisco, Chicago or Miami, but are otherwise unaware of the multitude of incredible cities in the US. People may be considering taking a job in a city they know little about, without knowing how similar it is to the cities they know they like or dissimilar from cities they know they dislike.</p>
+                <p>As an example, I love Boston and really like New York. I also really like Raleigh and Durham in North Carolina, but had I not attended Duke University, I would have not known. So now that I am graduating and considering job offers… where should I consider taking a job based on my preferences?</p>
+                <p>I built a recommendation system that, based on my input (or yours!), recommends similar cities in socioeconomic, weather and cultural aspects. Try it out yourself!</p>
+                <div class="float-right readmore">
+                    <a href="{{ url_for('cityrecommender') }}" class="btn btn-outline-primary float-right disabled">Read More</a>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- Marketing  -->
+    <div class="container">
+       
+        <div class="jumbotron">
+                       
+            <div class="row project-row">
+                <h1>A ML and Maths Approach to CRM</h1>
+                <hr align="left" class="titlehr">
+                <p class="lead">Customer centricity has become of paramount importance in business over the last decades, with most customer-facing Fortune 500 companies listing it as one of their core values. This change has made customer relationship management an even more critical aspect of any firm. So how can we use customer and sales data to better manage our customers, drive retention, and increase customer acquisition?</p>
+                <img src="../static/P_Marketing/framework_color.png" alt="" class="img-fluid">
+                
+                <div class="float-right readmore">
+                    <a href="{{ url_for('marketing_crm') }}" class="btn btn-outline-primary float-right disabled">Read More</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <!-- Finance  -->
+    <div class="container" id="Finance">
+       
+        <div class="jumbotron">
+                       
+            <div class="row project-row">
+                <h1>Financial Analysis and Modeling with Python</h1>
+                <hr align="left" class="titlehr">
+                <p class="lead">As a finance enthusiast, I've learned how to use descriptive (stats), prescriptive (optimization and simulations), and predictive (ML) analytics to help me manage my portfolio. Do you want to see how I do it?</p>
+                <p>Check out the Monte Carlo Simulation below for example! Enter the stock or stocks that you want to predict for your choice of days into the future.</p>
+                
+                <hr align='left' style="width: 100%;">
+                <form method="POST" action="#Finance">
+                    {{ fin_form.hidden_tag() }}
+                    
+                    <div class="form-group">
+                        <label for=""> <strong>Stocks:</strong></label>
+                        <br>
+                        {{ fin_form.ticker(class='form-control select2', placeholder='Stocks: Try AAPL or Apple', value='Stocks: Try AAPL or Apple') }}
+                        <br>
+                        <label for=""><strong>Days:</strong></label>
+                        <br>
+                        {{ fin_form.days(class='intfield', placeholder='Days') }}
+                        <br>
+                        <br>
+                        {{ fin_form.fsubmit(class='btn btn-primary btn-block fsubmit') }}
+                    </div>
+                    
+                </form>
+                <div class="plotlyfig" id='finfig'>
+                    {% for h in html %}
+                    {{ h|safe }}
+                    {% endfor %}
+                </div>
+                
+                <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">Stock</th>
+                        {% for s in info['columns'] %}
+                            <th scope="col">{{s}}</th>
+                        {% endfor %}
+                      </tr>
+                    </thead>
+                    <tbody>
+                        {% for n in range(5) %}
+                        <tr>
+                            <th scope="row">{{ info['index'][n] }}</th>
+                            {% for i in info['data'][n] %}
+                                <td>{{i}}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                  </table>
+
+                <div class="float-right readmore">
+                    <a href="{{ url_for('finance') }}" class="btn btn-outline-primary float-right disabled">Read More</a>
+                </div>
+                
+            
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+
+{% endblock %}

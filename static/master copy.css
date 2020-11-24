@@ -1,0 +1,252 @@
+body {
+    height: 100%;
+}
+
+.landing_screen {
+    background: url('../static/python_code.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0%;
+    margin-bottom: 0%;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin: 20%;
+    margin-top: 15%;
+    background-color:rgba(0, 0, 0, 0.94);
+    border-radius: 2em;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.landing_card {
+    background: rgba(0, 0, 0, 0.92);
+    text-align: center;
+    max-width: 1024px;
+    min-width: 400px;
+    border-radius: 3rem;
+    vertical-align: center;
+    margin-top: 0 auto;  
+    float: none;  
+}
+
+.landing_card-name {
+    padding: 2rem;
+    color: white;
+}
+
+.landing_card-social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.landing_card-social a {
+    text-decoration: none;
+}
+
+.fa {
+    padding: 8px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+  
+
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-linkedin:hover {
+    background: #007bb5;
+    color: #007bb5;
+}
+  
+  /* Twitter */
+.fa-github {
+    background: #6a7680;
+    color: white;
+ }
+.fa-github:hover {
+    background: #6a7680;
+    color: #6a7680;
+ }
+
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fa-google:hover {
+    background: #dd4b39;
+    color: #dd4b39;
+}
+
+
+
+.sidebar {
+    width: 80px; 
+    background-color: transparent;
+    height: 100%;
+    top: 0; 
+    left: 0; 
+    padding: 0; 
+    margin: 0; 
+    position: fixed;
+    transition: 0.4s;
+}
+
+.sidebar:hover {
+    background: transparent;
+    transition: 0.8s;
+    width: 200px;
+}
+
+.sidebar p {
+    display: none;
+    font-size: 2rem;
+}
+
+.sidebar:hover p{
+    display: block;
+    margin-left: 2.5rem;
+    margin-top: -1em;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.sidebar ul {
+    position: fixed; 
+    left: 0; 
+    top: 42vh; 
+    width: 8em; 
+    margin-top: -2.5em; 
+    list-style-type: none; 
+    padding: 0; 
+    margin-left: 1%;
+}
+
+.sidebar ul a {
+    position: fixed;
+    color: whitesmoke;
+    opacity: 0.3;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    opacity: 1;
+}
+
+/* Scroll Down to About Me */
+.scrolldown {
+    justify-content: center;
+}
+
+.scrolldown a {
+    color: white;
+    opacity: .75;
+    text-decoration: none;
+}
+
+.scrolldown a:hover {
+    opacity: 1;
+}
+
+/* About Me page */
+#AboutMe {
+    background-color: rgb(39, 39, 39);
+
+}
+
+#AboutMe .row .col-4,
+#AboutMe .row .col-8 {
+    padding: 200rem;
+}
+
+.profilepic {
+    margin-left: 20rem;
+}
+
+.introtext {
+    margin-right: 20rem;
+}
+
+
+
+/* .sidebar {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    white-space: nowrap;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #444;
+}
+
+.material-icons,
+.icon-text {
+    vertical-align: middle;
+}
+
+.material-icons {
+    padding-bottom: 3px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    margin-left: 100px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+
+/* @media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 18px;
+    }
+} */ 
